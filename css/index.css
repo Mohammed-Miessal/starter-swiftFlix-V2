@@ -122,7 +122,7 @@ header ul li {
     height: 114px;
     /* padding-left: 3px; */
     color: #4F4F4F;
-    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -160,7 +160,7 @@ header ul li {
     width: 540px;
     height: 31px;
     color: var(--neutral-grey-5, #8B8C8C);
-    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -297,16 +297,19 @@ header ul li {
     gap: 30px;
     margin: 126px 256px 126px 0px;
 }
-.feature p{
+
+.feature p {
     color: var(--neutral-grey-5, #8B8C8C);
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: 'Plus Jakarta Sans',sans-serif;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 171.429% */
-letter-spacing: 0.3px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.3px;
 }
+
 .feature {
     display: flex;
     width: 224px;
@@ -488,7 +491,7 @@ letter-spacing: 0.3px;
 }
 
 .card1 h3 {
-    color:  #151617;
+    color: #151617;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -563,7 +566,7 @@ letter-spacing: 0.3px;
 .clients_details h3 {
     color: var(--neutral-grey-7, #2D2F30);
     font-feature-settings: "salt", "liga" 0;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -573,7 +576,7 @@ letter-spacing: 0.3px;
 .clients_details p {
     color: var(--neutral-grey-6, #4F4F4F);
     font-feature-settings: "salt", "liga" 0;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -588,7 +591,7 @@ letter-spacing: 0.3px;
 .clients_details h3 {
     color: var(--neutral-grey-7, #2D2F30);
     font-feature-settings: "salt", "liga" 0;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -598,7 +601,7 @@ letter-spacing: 0.3px;
 .clients_details p {
     color: var(--neutral-grey-6, #4F4F4F);
     font-feature-settings: "salt", "liga" 0;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -631,7 +634,7 @@ letter-spacing: 0.3px;
 
 .cta_section p {
     color: var(--neutral-grey-6, #4F4F4F);
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -663,7 +666,7 @@ letter-spacing: 0.3px;
     width: 100px;
     height: 36px;
     color: var(--neutral-grey-1, #F9F8F9);
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
