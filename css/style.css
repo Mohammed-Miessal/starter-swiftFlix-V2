@@ -879,3 +879,189 @@ header ul li {
     letter-spacing: 0.5px;
     padding: 14px 36px 14px 10px;
 }
+
+/* //////////// About Page //////////// */
+
+.about_Hero_Title {
+    width: 593px;
+    height: 825.9px;
+    padding: 64px 0px 34.1px 165px;
+}
+
+.about_Hero_Title .title {
+    height: 150px;
+    width: 555px;
+    padding: 0px 0 0px 0;
+    margin: 0;
+}
+
+.about_Hero_Title .title h1 {
+    color: #094B72;
+    font-family: 'Playfair Display';
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108px;
+    letter-spacing: 0.02em;
+    margin: 91px 0 0px 0px;
+}
+
+.about_Hero_Title  p {
+    width: 574px;
+    height: 114px;
+    color: #4F4F4F;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+    letter-spacing: 0.5px;
+    margin: 0;
+    text-align: justify;
+}
+
+.about_Hero_Title button {
+    width: 190px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0px;
+    background: #094B72;
+    padding: 0;
+    margin-top: 23px;
+}
+
+.about_Hero_Title button p {
+    width: 118px;
+    height: 22px;
+    margin: 29px 36px 29px 36px;
+    color:#F9F8F9;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 140.5%;
+    letter-spacing: 1.28px;
+}
+
+.about_Hero_Image .ellipse1 {
+    width: 607px;
+    height: 457px;
+    background: rgba(110, 168, 255, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 153px 0 0px 0px;
+    /* margin: 0 559px 0 0; */
+    margin: 50px;
+}
+
+.about_Hero_Image .ellipse2 img {
+    width: 442px;
+    height: 432.811px;
+    flex-shrink: 0;
+    margin: 182px 28px 0 79px;
+}
+
+
+.about_Hero_Image .ellipse2 {
+    width: 364px;
+    height: 344px;
+    background: #6ea8ff2b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.49px 110px 171px 58.2px;
+    margin-top: -235px;
+}
+
+/* //////////// Service Page //////////// */
+
+.service_Hero_Title {
+    width: 593px;
+    height: 825.9px;
+    padding: 64px 0px 34.1px 0;
+}
+
+.service_Hero_Image .ellipse1 {
+    width: 646px;
+    height: 484px;
+    background: rgba(110, 168, 255, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 153px 0 0px 0px;
+    /* margin: 0 559px 0 0; */
+    margin: 50px;
+}
+
+.service_Hero_Image .ellipse2 {
+    width: 307px;
+    height: 295px;
+    background: #6ea8ff2b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.49px 110px 171px 58.2px;
+    margin: -310px 0 0 -63px;
+}
+
+.service_Hero_Image .ellipse2 img{
+    width: 469px;
+    height: 512.811px;
+    flex-shrink: 0;
+  margin: 278px 28px 0 84px;
+} 
+
+
+.service_Hero_Title .title h1 {
+    color: #094B72;
+    font-family: 'Playfair Display';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: 0.96px;
+}
+
+.service_Hero_Title  p {
+    width: 574px;
+    height: 114px;
+    color: #4F4F4F;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+    letter-spacing: 0.5px;
+    margin: 0;
+    text-align: justify;
+}
+
+.service_Hero_Title button {
+    width: 190px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0px;
+    background: #094B72;
+    padding: 0;
+    margin-top: 23px;
+}
+
+.service_Hero_Title button p {
+    width: 118px;
+    height: 22px;
+    margin: 29px 36px 29px 36px;
+    color:#F9F8F9;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 140.5%;
+    letter-spacing: 1.28px;
+}
