@@ -92,6 +92,10 @@
     padding: 40px 0px 0px 0px;
 }
 
+#cap {
+    margin-top: 15px;
+}
+
 .Hero_Image {
     width: 791px;
     height: 811px;
@@ -475,6 +479,189 @@
     font-weight: 700;
     line-height: 64px;
     letter-spacing: 0.5px;
-    padding: 61px 485px 0 ;
+    padding: 61px 485px 0;
     margin: 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 20px; */
+    gap: 30px;
+    background-color: #f2f7ff;
+
+}
+
+.card1 {
+    width: 540px;
+    height: 220px;
+    border-radius: 10px;
+    background: #ffffff;
+    /* margin: 51px 0px 30px 200px; */
+    margin: 51px 0px 30px 190px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 52% 95%, 50% 100%, 48% 95%, 0 95%);
+    
+}
+
+.card1 h3 {
+    color: var(--neutral-grey-8, #151617);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    padding: 32px 32px 0px;
+    margin: 0;
+}
+
+.card2 {
+    width: 540px;
+    height: 220px;
+    border-radius: 10px;
+    background: #ffffff;
+    margin: 51px 30px 30px -13px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 52% 95%, 50% 100%, 48% 95%, 0 95%);
+}
+
+.card2 h3 {
+    color: var(--neutral-grey-8, #151617);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+    padding: 32px 32px 0px;
+    margin: 0;
+}
+
+.cards p {
+    width: 476px;
+    padding: 8px 32px 32px 32px;
+    color: var(--neutral-grey-6, #4F4F4F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.5px;
+}
+
+.clients_details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.clients_details h3 {
+    
+    color: var(--neutral-grey-7, #2D2F30);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.clients_details p {
+
+    color: var(--neutral-grey-6, #4F4F4F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Body / Body 2 */
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+
+}
+
+.client1 {
+    width: 300px;
+    /* padding: 0px 0px 0px 330px; */
+    margin-left: 330px;
+}
+
+.client2 {
+    width: 300px;
+    margin-left: 140px;
+}
+
+.cta_section {
+    width: 1510px;
+    height: 374px;
+    flex-shrink: 0;
+}
+
+.cta_section h2 {
+    width: 470px;
+    height: 82.192px;
+    flex-shrink: 0;
+    color: var(--neutral-grey-7, #2D2F30);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 133.333% */
+    letter-spacing: 0.5px;
+    padding: 36.72px 0px 0px 159px;
+    margin: 0;
+}
+
+.cta_section p {
+    color: var(--neutral-grey-6, #4F4F4F);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 150% */
+    letter-spacing: 0.5px;
+    width: 821px;
+    height: 129.393px;
+    flex-shrink: 0;
+    padding: 14.85px 0px 14.85px 165px;
+    margin: 0;
+}
+
+.cta_section button {
+    display: flex;
+    width: 219px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0px;
+    background: #094B72;
+    margin-left: 165px;
+  
+}
+.cta_section button img{
+    /* padding: 16px 0 16px 37px; */
+    padding:15px 0 16px 37px;
+}
+.cta_section button p {
+    width: 100px;
+    height: 36px;
+    color: var(--neutral-grey-1, #F9F8F9);
+    font-family: 'Poppins',sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 163.636% */
+    letter-spacing: 0.5px;
+    padding: 14px 36px 14px 10px ;
+
 }
