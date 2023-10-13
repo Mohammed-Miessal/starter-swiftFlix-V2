@@ -39,10 +39,39 @@
                 <div class="title">
                     <h1>Contact US </h1>
                 </div>
-                
+                <form >
+                    <div>
+                        <input type="text" placeholder="Name" >
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Phone Number" >
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" >
+                    </div>
+                    <div>
+                        <label id="title_dropdown" for="cities">Chose a Topic :</label>
+                        <select  name="cities" class="cities">
+                            <option selected disabled>Choose a Topic</option>
+                            <option value="topic1">Topic 1</option>
+                            <option value="topic2">Topic 2</option>
+                            <option value="topic3">Topic 3</option>
+                            <option value="topic4">Topic 4</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="text" class="message-box" placeholder="Message" >
+                    </div>
+                    <div class="d-flex ">
+                        <button>
+                            <span>SEND</span>
+                        </button>
+                    </div>
+                </form>
+
             </div>
-            <div class="about_Hero_Image">
-                
+            <div class="contact_Hero_map">
+                <div id="googleMap" style="width:100%;height:100%;"></div>
             </div>
         </div>
     </section>
@@ -131,6 +160,11 @@
             </svg>
         </div>
     </section>
+    <script src="js/custom.js"></script>
+      <!-- Google Map -->
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
 </body>
 
 </html>

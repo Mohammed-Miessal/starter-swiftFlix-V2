@@ -493,13 +493,14 @@ header ul li {
     margin: 126px 256px 126px 0px;
 }
 
-.feature h3{
+.feature h3 {
     color: var(--Text, #363940);
     font-family: 'Playfair Display';
     font-size: 22px;
     font-style: normal;
     font-weight: 550;
-    line-height: 22px; /* 100% */
+    line-height: 22px;
+    /* 100% */
     letter-spacing: 0.5px;
 }
 
@@ -906,7 +907,7 @@ header ul li {
     margin: 91px 0 0px 0px;
 }
 
-.about_Hero_Title  p {
+.about_Hero_Title p {
     width: 574px;
     height: 114px;
     color: #4F4F4F;
@@ -935,7 +936,7 @@ header ul li {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
-    color:#F9F8F9;
+    color: #F9F8F9;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -978,24 +979,30 @@ header ul li {
 }
 
 /* //////////// Service Page //////////// */
+.container2 {
+    margin: 10px 0 0;
+    display: grid;
+    grid-template-columns: 720px 720px;
+    grid-template-rows: repeat(1, 686px);
+    background-color: #FFFFFF;
+}
 
 .service_Hero_Title {
     width: 593px;
-    height: 825.9px;
+    /* height: 825.9px; */
     padding: 64px 0px 34.1px 0;
 }
 
 .service_Hero_Image .ellipse1 {
-    width: 646px;
-    height: 484px;
+    width: 692px;
+    height: 560px;
     background: rgba(110, 168, 255, 0.10);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 153px 0 0px 0px;
-    /* margin: 0 559px 0 0; */
-    margin: 50px;
+    padding: 93px 0 0px 0px;
+    margin: 34px 50px 50px 1px;
 }
 
 .service_Hero_Image .ellipse2 {
@@ -1007,15 +1014,15 @@ header ul li {
     justify-content: center;
     align-items: center;
     padding: 0.49px 110px 171px 58.2px;
-    margin: -310px 0 0 -63px;
+    margin: -264px 0 0 -69px;
 }
 
-.service_Hero_Image .ellipse2 img{
-    width: 469px;
-    height: 512.811px;
+.service_Hero_Image .ellipse2 img {
+    width: 478px;
+    height: 523.811px;
     flex-shrink: 0;
-  margin: 278px 28px 0 84px;
-} 
+    margin: 278px 28px 0 122px;
+}
 
 
 .service_Hero_Title .title h1 {
@@ -1024,11 +1031,12 @@ header ul li {
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 57.6px */
+    line-height: 120%;
+    /* 57.6px */
     letter-spacing: 0.96px;
 }
 
-.service_Hero_Title  p {
+.service_Hero_Title p {
     width: 574px;
     height: 114px;
     color: #4F4F4F;
@@ -1057,7 +1065,7 @@ header ul li {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
-    color:#F9F8F9;
+    color: #F9F8F9;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -1065,3 +1073,133 @@ header ul li {
     line-height: 140.5%;
     letter-spacing: 1.28px;
 }
+
+
+/* //////////// Contact Page //////////// */
+
+.contact_Hero_Title .title h1{
+    font-size: 40px;
+    margin: 0 0 51px 0;
+    color: #094B72;
+}
+.contact_Hero_Title{
+width: 600px;
+/* margin: 120px 0 0 182px; */
+margin: 90px 0 0 182px;
+}
+form{
+    width: 500px;
+}
+.contact_Hero_Title input  {
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 0;
+    padding-left: 25px;
+    background-color: #ffffff;
+    outline: none;
+    -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .contact_Hero_Title input::-webkit-input-placeholder {
+    color: #737272;
+  }
+  
+  .contact_Hero_Title input:-ms-input-placeholder {
+    color: #737272;
+  }
+  
+  .contact_Hero_Title input::-ms-input-placeholder {
+    color: #737272;
+  }
+  
+  .contact_Hero_Title input::placeholder {
+    color: #737272;
+  }
+
+  .contact_section input.message-box {
+    height: 135px;
+  }
+label{
+    font-family: 'Lato', sans-serif;
+}
+   .contact_Hero_Title select{
+    width: 527px;
+    border: none;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: #ffffff;
+    outline: none;
+    -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .contact_Hero_Title button {
+    border: none;
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 55px;
+    background: #094B72;
+    
+    border: 1px solid #0355cc;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-top: 15px;
+    height: 80px;
+    width: 200px;
+  }
+  
+  .contact_Hero_Title button:hover {
+    /* background-color: transparent;
+    color: #0355cc; */
+    width: 190px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #0355cc;
+    padding: 0;
+    margin-top: 23px;
+  }
+
+  .contact_Hero_Title button span {
+    width: 118px;
+    height: 22px;
+    /* margin: 29px 36px 29px 36px; */
+    color: var(--neutral-grey-1, #F9F8F9);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.5%;
+    letter-spacing: 1.28px;
+}
+
+  
+  .contact_Hero_Title .map_container {
+    height: 360px;
+   
+  }
+  
+  .contact_Hero_Title .map_container .map {
+    height: 100%;
+  }
+  
+
+  /* ////// Map //// */
+
+  .contact_Hero_map{
+    height: 570px;
+    width: 618px;
+    /* padding: 100px 0 0 200px; */
+    margin: 86px 0px 0 81px;
+
+  }
+  #googleMap{
+    border-radius: 60px;
+  }
