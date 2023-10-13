@@ -1,10 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* /////// header ////// */
 
 header {
     display: flex;
     width: 1110px;
     height: 100px;
-    flex-shrink: 0;
     margin-left: 165px;
     margin-top: 10px;
 
@@ -52,37 +56,15 @@ header ul li a {
 }
 
 .logo svg {
-    width: 36px;
+
+    width: 150px;
     height: 36px;
-    margin-top: 13px;
+    margin-top: 17px;
     flex-shrink: 0;
     fill: #094B72;
+
 }
 
-.logo h6 {
-    margin: 24px 0px 0px -23px;
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 12px;
-}
-
-.logo h3 {
-    color: #2D2F30;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 1.5px;
-    margin-left: 10px;
-}
 
 #search {
     width: 24px;
@@ -171,7 +153,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.copyrights .rights p {
+.copyrights .rights h6 {
     width: 238px;
     color: var(--text-gray-300, #D9DBE1);
     font-feature-settings: 'salt' on, 'liga' off;
@@ -189,95 +171,8 @@ footer {
     margin: 22.69px 0 22.69px 375px;
 }
 
-/* ///////////////////////////// */
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* ///////////// Navbar Section  ///////////////// */
-header {
-    display: flex;
-    width: 1110px;
-    height: 100px;
-    flex-shrink: 0;
-    margin-left: 165px;
-}
-
-.logo {
-    width: 200px;
-    display: flex;
-    padding: 11px;
-}
-
-.logo svg {
-    width: 36px;
-    height: 36px;
-    margin-top: 13px;
-    flex-shrink: 0;
-    fill: #094B72;
-}
-
-.logo h6 {
-    margin: 24px 0px 0px -23px;
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-family: 'Poppins';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 12px;
-}
-
-b {
-    font-weight: bold;
-}
-
-.logo h3 {
-    color: #2D2F30;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 1.5px;
-    margin-left: 10px;
-}
-
-.nav-bar {
-    width: 468px;
-    height: 47px;
-    list-style-type: none;
-    display: inline-flex;
-    padding: 12px;
-    justify-content: center;
-    align-items: center;
-    gap: 56px;
-    margin-left: 166px;
-}
-
-header ul li {
-    float: right;
-    display: inline-flex;
-    padding: 12px;
-    justify-content: center;
-    align-items: center;
-    gap: 56px;
-}
-
-#search {
-    width: 24px;
-    height: 24px;
-    margin-top: 38px;
-    margin-left: 166px;
-    flex-shrink: 0;
-}
-
 /* ///////////// Section 1 ///////////////// */
+
 .container {
     display: grid;
     grid-template-columns: 720px 720px;
@@ -335,7 +230,7 @@ header ul li {
     margin-top: 23px;
 }
 
-.Hero_Title button p {
+.Hero_Title button span {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
@@ -359,6 +254,10 @@ header ul li {
     line-height: 140.5%;
     letter-spacing: 0.88px;
     padding: 115px 52px 0px 1px;
+}
+
+#wobz{
+    margin-top: -10px;
 }
 
 .logo_companies {
@@ -469,7 +368,7 @@ header ul li {
 .side1 p {
     color: #8B8C8C;
     font-feature-settings: "clig" 0, "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -545,7 +444,7 @@ header ul li {
     color: var(--default-white, #FFF);
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -567,7 +466,7 @@ header ul li {
     color: var(--default-white, #FFF);
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -580,7 +479,7 @@ header ul li {
     color: var(--default-white, #FFF);
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -602,7 +501,7 @@ header ul li {
     color: var(--default-white, #FFF);
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -614,14 +513,14 @@ header ul li {
     color: var(--default-white, #FFF);
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.3px;
     margin: 0px;
-    width: 255px;
+    width: 271px;
 }
 
 .part3 {
@@ -633,7 +532,7 @@ header ul li {
     color: var(--default-white, #FFF);
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
@@ -645,7 +544,7 @@ header ul li {
     color: var(--default-white, #FFF);
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -657,7 +556,6 @@ header ul li {
 
 /* ///////////// Section 4 ///////////////// */
 .testimonial_section {
-    /* background: rgb(242, 247, 255); */
     background-color: rgb(236 243 255);
     width: 1440px;
     height: 610px;
@@ -692,7 +590,7 @@ header ul li {
     background: rgb(255, 255, 255);
     margin: 51px 0px 30px 190px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 52% 95%, 50% 100%, 48% 95%, 0px 95%);
-   
+
 }
 
 .card1 h3 {
@@ -714,7 +612,7 @@ header ul li {
     color: var(--neutral-grey-6, #4F4F4F);
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -821,6 +719,7 @@ header ul li {
 }
 
 /* ///////////// Section 5 ///////////////// */
+
 .cta_section {
     width: 1440px;
     height: 374px;
@@ -874,7 +773,7 @@ header ul li {
     padding: 15px 0px 16px 37px;
 }
 
-.cta_section button p {
+.cta_section button span {
     width: 100px;
     height: 36px;
     color: var(--neutral-grey-1, #F9F8F9);
@@ -938,7 +837,7 @@ header ul li {
     margin-top: 23px;
 }
 
-.about_Hero_Title button p {
+.about_Hero_Title button span {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
@@ -946,7 +845,7 @@ header ul li {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 650;
+    font-weight: 700;
     line-height: 140.5%;
     letter-spacing: 1.28px;
 }
@@ -960,7 +859,6 @@ header ul li {
     justify-content: center;
     align-items: center;
     padding: 153px 0 0px 0px;
-    /* margin: 0 559px 0 0; */
     margin: 50px;
 }
 
@@ -985,17 +883,17 @@ header ul li {
 }
 
 /* //////////// Service Page //////////// */
+
 .container2 {
     margin: 10px 0 0;
     display: grid;
     grid-template-columns: 720px 720px;
-    grid-template-rows: repeat(1, 686px);
+    grid-template-rows: repeat(1, 800px);
     background-color: #FFFFFF;
 }
 
 .service_Hero_Title {
     width: 593px;
-    /* height: 825.9px; */
     padding: 64px 0px 34.1px 0;
 }
 
@@ -1038,7 +936,6 @@ header ul li {
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    /* 57.6px */
     letter-spacing: 0.96px;
 }
 
@@ -1067,7 +964,7 @@ header ul li {
     margin-top: 23px;
 }
 
-.service_Hero_Title button p {
+.service_Hero_Title button span {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
@@ -1087,11 +984,12 @@ header ul li {
     font-size: 40px;
     margin: 0 0 51px 0;
     color: #094B72;
+    font-family: 'Playfair Display';
+    width: 200px;
 }
 
 .contact_Hero_Title {
     width: 600px;
-    /* margin: 120px 0 0 182px; */
     margin: 90px 0 0 182px;
 }
 
@@ -1108,25 +1006,8 @@ form {
     padding-left: 25px;
     background-color: #ffffff;
     outline: none;
-    /* -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2); */
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
-
-/* .contact_Hero_Title input::-webkit-input-placeholder {
-    color: #737272;
-}
-
-.contact_Hero_Title input:-ms-input-placeholder {
-    color: #737272;
-}
-
-.contact_Hero_Title input::-ms-input-placeholder {
-    color: #737272;
-}
-
-.contact_Hero_Title input::placeholder {
-    color: #737272;
-} */
 
 .contact_section input.message-box {
     height: 135px;
@@ -1134,18 +1015,30 @@ form {
 
 label {
     font-family: 'Lato', sans-serif;
+    color: #AEAEAE;
+}
+
+
+.contact_Hero_Title select option {
+    color: #AEAEAE;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 16.8px */
+    letter-spacing: 0.28px;
 }
 
 .contact_Hero_Title select {
     width: 527px;
     border: none;
+    font-family: 'Lato', sans-serif;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 25px;
     padding-left: 25px;
     background-color: #ffffff;
     outline: none;
-    /* -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2); */
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -1156,7 +1049,6 @@ label {
     text-transform: uppercase;
     padding: 10px 55px;
     background: #094B72;
-
     border: 1px solid #0355cc;
     border-radius: 8px;
     color: #ffffff;
@@ -1166,8 +1058,6 @@ label {
 }
 
 .contact_Hero_Title button:hover {
-    /* background-color: transparent;
-    color: #0355cc; */
     width: 190px;
     height: 80px;
     flex-shrink: 0;
@@ -1181,7 +1071,6 @@ label {
 .contact_Hero_Title button span {
     width: 118px;
     height: 22px;
-    /* margin: 29px 36px 29px 36px; */
     color: var(--neutral-grey-1, #F9F8F9);
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
@@ -1205,13 +1094,9 @@ label {
 /* ////// Map //// */
 
 .contact_Hero_map {
-    /* height: 570px;
-    width: 618px;
-    margin: 86px 0px 0 81px; */
     height: 703px;
     width: 618px;
     margin: 65px 0px 0 46px;
-
 }
 
 #googleMap {
