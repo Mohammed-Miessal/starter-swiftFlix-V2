@@ -16,7 +16,8 @@ Notre landing page est conçue pour vous offrir un aperçu rapide de ce que nous
 Nous sommes ravis de vous accueillir sur notre landing page et espérons que vous trouverez toutes les informations dont vous avez besoin. Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter.
 
 ## Lien du maquette du projet ("hight/low" fidelity):
+<a href='https://github.com/hail2u/html-best-practices'>hail2u/html-best-practices: For writing maintainable and scalable HTML documents (github.com)</a>
         - Low fidelity link:
-         <a href="https://www.figma.com/file/RD8mbSg3lTscPyXRmJQN0l/Wireframe-SwiftFix?type=design&mode=design&t=XiqJBQsarwcGveJw-1 "> Click here </a>
+         <a href='https://www.figma.com/file/RD8mbSg3lTscPyXRmJQN0l/Wireframe-SwiftFix?type=design&mode=design&t=XiqJBQsarwcGveJw-1'> Click here </a>
         - Hight fidelity link:
-         <a href="https://www.figma.com/file/Z1e6zX0Px44sjDhxOhaqiu/Project-SwiftFix?type=design&mode=design&t=XiqJBQsarwcGveJw-1 "> Click here </a>
+         <a href='https://www.figma.com/file/Z1e6zX0Px44sjDhxOhaqiu/Project-SwiftFix?type=design&mode=design&t=XiqJBQsarwcGveJw-1'> Click here </a>
