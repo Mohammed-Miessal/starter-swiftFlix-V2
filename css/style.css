@@ -153,7 +153,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.copyrights .rights h6 {
+.copyrights .rights {
     width: 238px;
     color: var(--text-gray-300, #D9DBE1);
     font-feature-settings: 'salt' on, 'liga' off;
@@ -863,8 +863,8 @@ footer {
 }
 
 .about_Hero_Image .ellipse2 img {
-    width: 442px;
-    height: 432.811px;
+    width: 438px;
+    height: 442px;
     flex-shrink: 0;
     margin: 182px 28px 0 79px;
 }
