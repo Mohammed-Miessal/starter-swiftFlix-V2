@@ -40,7 +40,7 @@ header ul li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: var(--neutral-grey-7, #2D2F30);
+    color: #2D2F30;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -115,7 +115,7 @@ footer {
 }
 
 .footer_nav ul li {
-    color: var(--text-gray-200, #eeeff4b8);
+    color: #eeeff4b8;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -135,7 +135,7 @@ footer {
 .footer_nav .heading {
     padding: 22px 0 0 0;
     margin-bottom: 32px;
-    color: var(--text-gray-100, #F4F5F7);
+    color: #F4F5F7;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -157,7 +157,7 @@ footer {
 
 .copyrights .rights {
     width: 238px;
-    color: var(--text-gray-300, #D9DBE1);
+    color: #D9DBE1;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -178,7 +178,6 @@ footer {
 .container {
     display: grid;
     grid-template-columns: 720px 720px;
-    /* grid-template-rows: repeat(1, auto); */
     grid-template-rows: repeat(1, 924px);
     background-color: #FFFFFF;
 
@@ -237,7 +236,7 @@ footer {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
-    color:  #F9F8F9;
+    color: #F9F8F9;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -259,7 +258,7 @@ footer {
     padding: 115px 52px 0px 1px;
 }
 
-#wobz{
+#wobz {
     margin-top: -10px;
 }
 
@@ -422,6 +421,7 @@ footer {
 }
 
 /* ///////////// Section 3 ///////////////// */
+
 .achievement_section {
     width: 1440px;
     height: 376px;
@@ -431,7 +431,7 @@ footer {
 }
 
 .achievement_title h3 {
-    color:  #FFF;
+    color: #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: "Playfair Display";
@@ -445,7 +445,7 @@ footer {
 }
 
 .achievement_title p {
-    color:  #FFF;
+    color: #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -467,7 +467,7 @@ footer {
 
 .part1 span {
     width: 255px;
-    color:  #FFF;
+    color: #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -502,7 +502,7 @@ footer {
 
 .part2 span {
     width: 255px;
-    color: var(--default-white, #FFF);
+    color: #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -514,7 +514,7 @@ footer {
 }
 
 .part2 p {
-    color: var(--default-white, #FFF);
+    color: #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -533,7 +533,7 @@ footer {
 
 .part3 span {
     width: 255px;
-    color: var(--default-white, #FFF);
+    color: #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -545,7 +545,7 @@ footer {
 }
 
 .part3 p {
-    color: var(--default-white, #FFF);
+    color: #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -559,6 +559,7 @@ footer {
 }
 
 /* ///////////// Section 4 ///////////////// */
+
 .testimonial_section {
     background-color: rgb(236 243 255);
     width: 1440px;
@@ -613,7 +614,7 @@ footer {
 .cards p {
     width: 476px;
     padding: 8px 32px 32px;
-    color: var(--neutral-grey-6, #4F4F4F);
+    color: #4F4F4F;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -634,7 +635,7 @@ footer {
 }
 
 .card2 h3 {
-    color: var(--neutral-grey-8, #151617);
+    color: #151617;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: Poppins, sans-serif;
@@ -649,7 +650,7 @@ footer {
 .cards p {
     width: 476px;
     padding: 8px 32px 32px;
-    color: var(--neutral-grey-6, #4F4F4F);
+    color: #4F4F4F;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: Poppins, sans-serif;
@@ -673,7 +674,7 @@ footer {
 }
 
 .clients_details h3 {
-    color: var(--neutral-grey-7, #2D2F30);
+    color: #2D2F30;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -683,7 +684,7 @@ footer {
 }
 
 .clients_details p {
-    color: var(--neutral-grey-6, #4F4F4F);
+    color: #4F4F4F;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -701,7 +702,7 @@ footer {
 }
 
 .clients_details h3 {
-    color: var(--neutral-grey-7, #2D2F30);
+    color: #2D2F30;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -712,7 +713,7 @@ footer {
 }
 
 .clients_details p {
-    color: var(--neutral-grey-6, #4F4F4F);
+    color: #4F4F4F;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -734,7 +735,7 @@ footer {
     width: 470px;
     height: 82.192px;
     flex-shrink: 0;
-    color: var(--neutral-grey-7, #2D2F30);
+    color: #2D2F30;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: "Playfair Display";
@@ -748,7 +749,7 @@ footer {
 }
 
 .cta_section p {
-    color: var(--neutral-grey-6, #4F4F4F);
+    color: #4F4F4F;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -780,7 +781,7 @@ footer {
 .cta_section button span {
     width: 100px;
     height: 36px;
-    color: var(--neutral-grey-1, #F9F8F9);
+    color: #F9F8F9;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-style: normal;
@@ -895,8 +896,9 @@ footer {
     grid-template-rows: repeat(1, 850px);
     background-color: #FFFFFF;
 }
-.service__image{
-    margin: 0 0 0 50px ;
+
+.service__image {
+    margin: 0 0 0 50px;
 }
 
 .service__image .ellipse1 {
@@ -1034,7 +1036,7 @@ label {
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; /* 16.8px */
+    line-height: 120%;
     letter-spacing: 0.28px;
 }
 
@@ -1080,7 +1082,7 @@ label {
 .contact__title button span {
     width: 118px;
     height: 22px;
-    color: var(--neutral-grey-1, #F9F8F9);
+    color: #F9F8F9;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
