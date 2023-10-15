@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Site Metas -->
+    <!-- Site Metas -->
     <meta name="keywords"
         content="consultations, conseil, services, expertise, domaine d'expertise, spécialiste, professionnels, solutions">
     <meta name="description"
@@ -31,10 +31,10 @@
             </svg>
         </div>
         <ul class="nav-bar">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="service.html">SERVICES</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+            <li class="nav-item"><a href="index.html">home</a></li>
+            <li class="nav-item"><a href="about.html">about</a></li>
+            <li class="nav-item"><a href="service.html">services</a></li>
+            <li class="nav-item"><a href="contact.html">contact</a></li>
         </ul>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" id="search">
             <path
@@ -43,9 +43,9 @@
         </svg>
     </header>
     <!-- end header section -->
-    <section>
+    <section class="main">
         <div class="container">
-            <div class="contact_Hero_Title">
+            <div class="contact__title">
                 <div class="title">
                     <h1>Contact US </h1>
                 </div>
@@ -59,16 +59,6 @@
                     <div>
                         <input type="email" placeholder="Email">
                     </div>
-                    <!-- <div>
-                        <label id="title_dropdown" for="cities">Chose a Topic :</label>
-                        <select name="cities" class="cities">
-                            <option selected disabled>Choose a Topic</option>
-                            <option value="topic1">Topic 1</option>
-                            <option value="topic2">Topic 2</option>
-                            <option value="topic3">Topic 3</option>
-                            <option value="topic4">Topic 4</option>
-                        </select>
-                    </div> -->
                     <div>
                         <label id="title_dropdown" for="topicSelect">Choose a Topic:</label>
                         <select id="topicSelect" name="topic" class="topic">
@@ -79,8 +69,8 @@
                             <option value="topic4">Topic 4</option>
                         </select>
                     </div>
-                    <div>
-                        <input type="text" class="message-box" placeholder="Message">
+                    <div >
+                        <input type="text" class="message__box" placeholder="Message">
                     </div>
                     <div class="d-flex ">
                         <button>
@@ -90,7 +80,7 @@
                 </form>
 
             </div>
-            <div class="contact_Hero_map">
+            <div class="contact__map">
                 <div id="googleMap" style="width:100%;height:100%;"></div>
             </div>
         </div>
@@ -111,30 +101,29 @@
         <div class="footer_nav">
             <ul class="col1">
                 <li class="heading">Product</li>
-                <li>Overview</li>
-                <li>Features</li>
-                <li>Tutorials</li>
-                <li>Pricing</li>
-                <li>Releases</li>
+                <li class="footer-item">Overview</li>
+                <li class="footer-item">Features</li>
+                <li class="footer-item">Tutorials</li>
+                <li class="footer-item">Pricing</li>
+                <li class="footer-item">Releases</li>
             </ul>
             <ul class="col2">
                 <li class="heading">Company</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Careers</li>
-                <li>Contact</li>
-                <li>Partners</li>
+                <li class="footer-item">About</li>
+                <li class="footer-item">Services</li>
+                <li class="footer-item">Careers</li>
+                <li class="footer-item">Contact</li>
+                <li class="footer-item">Partners</li>
             </ul>
             <ul class="col3">
                 <li class="heading">Support</li>
-                <li>Help Center</li>
-                <li>Terms of service</li>
-                <li>Legal</li>
-                <li>Privacy Policy</li>
-                <li>Status</li>
+                <li class="footer-item">Help Center</li>
+                <li class="footer-item">Terms of service</li>
+                <li class="footer-item">Legal</li>
+                <li class="footer-item">Privacy Policy</li>
+                <li class="footer-item">Status</li>
             </ul>
         </div>
-
     </footer>
     <!-- end section six section -->
     <section class="copyrights">

@@ -33,6 +33,7 @@ header ul li {
     justify-content: center;
     align-items: center;
     gap: 56px;
+
 }
 
 header ul li a {
@@ -47,6 +48,7 @@ header ul li a {
     line-height: 23px;
     letter-spacing: 1.5px;
     margin: -10px 0px 0px 10px;
+    text-transform: uppercase;
 }
 
 .logo {
@@ -179,22 +181,23 @@ footer {
     /* grid-template-rows: repeat(1, auto); */
     grid-template-rows: repeat(1, 924px);
     background-color: #FFFFFF;
+
 }
 
-.Hero_Title {
+.main__title {
     width: 593px;
     height: 825.9px;
     padding: 64px 682px 34.1px 165px;
 }
 
-.Hero_Title .title {
+.main__title .title {
     height: 324px;
     width: 555px;
     padding: 0px 0 0px 0;
     margin: 0;
 }
 
-.Hero_Title .title h1 {
+.main__title .title h1 {
     color: #094B72;
     font-family: 'Playfair Display';
     font-size: 90px;
@@ -205,7 +208,7 @@ footer {
     margin: 0;
 }
 
-.Hero_Title p {
+.main__title p {
     width: 574px;
     height: 114px;
     color: #4F4F4F;
@@ -219,7 +222,7 @@ footer {
     text-align: justify;
 }
 
-.Hero_Title button {
+.main__title button {
     width: 190px;
     height: 80px;
     flex-shrink: 0;
@@ -230,11 +233,11 @@ footer {
     margin-top: 23px;
 }
 
-.Hero_Title button span {
+.main__title button span {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
-    color: var(--neutral-grey-1, #F9F8F9);
+    color:  #F9F8F9;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -246,7 +249,7 @@ footer {
 #description {
     width: 540px;
     height: 31px;
-    color: var(--neutral-grey-5, #8B8C8C);
+    color: #727272;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 22px;
     font-style: normal;
@@ -260,14 +263,14 @@ footer {
     margin-top: -10px;
 }
 
-.logo_companies {
+.logo__companies {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 36px;
     padding: 40px 0px 0px 0px;
 }
 
-.Hero_Image {
+.main__image {
     width: 720px;
     height: 811px;
     flex-shrink: 0;
@@ -303,7 +306,7 @@ footer {
     margin: 469px 40px 0 110px;
 }
 
-.nom {
+.name {
     width: 382px;
     height: 114px;
     flex-shrink: 0;
@@ -313,7 +316,7 @@ footer {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.nom h3 {
+.name h3 {
     width: 231px;
     height: 36px;
     color: #33475B;
@@ -327,10 +330,10 @@ footer {
     margin-bottom: 0;
 }
 
-.nom p {
+.name p {
     width: 161px;
     height: 36px;
-    color: #87898C;
+    color: #727272;
     text-align: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
@@ -342,6 +345,7 @@ footer {
 }
 
 /* ///////////// Section 2 ///////////////// */
+
 .feature_section {
     width: 1440px;
     display: grid;
@@ -366,7 +370,7 @@ footer {
 }
 
 .side1 p {
-    color: #8B8C8C;
+    color: #6a6a6a;
     font-feature-settings: "clig" 0, "liga" 0;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -385,7 +389,7 @@ footer {
 }
 
 .feature h3 {
-    color: var(--Text, #363940);
+    color: #363940;
     font-family: 'Playfair Display';
     font-size: 22px;
     font-style: normal;
@@ -395,7 +399,7 @@ footer {
 }
 
 .feature p {
-    color: var(--neutral-grey-5, #8B8C8C);
+    color: #727272;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 14px;
@@ -427,7 +431,7 @@ footer {
 }
 
 .achievement_title h3 {
-    color: var(--default-white, #FFF);
+    color:  #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: "Playfair Display";
@@ -441,7 +445,7 @@ footer {
 }
 
 .achievement_title p {
-    color: var(--default-white, #FFF);
+    color:  #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -463,7 +467,7 @@ footer {
 
 .part1 span {
     width: 255px;
-    color: var(--default-white, #FFF);
+    color:  #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -476,7 +480,7 @@ footer {
 
 .part1 p {
     width: 255px;
-    color: var(--default-white, #FFF);
+    color: #FFF;
     text-align: center;
     font-feature-settings: "salt", "liga" 0;
     font-family: 'Poppins', sans-serif;
@@ -788,20 +792,20 @@ footer {
 
 /* //////////// About Page //////////// */
 
-.about_Hero_Title {
+.about__title {
     width: 593px;
     height: 825.9px;
     padding: 64px 0px 34.1px 165px;
 }
 
-.about_Hero_Title .title {
+.about__title .title {
     height: 150px;
     width: 555px;
     padding: 30px 0 105px 0;
     margin: 0;
 }
 
-.about_Hero_Title .title h1 {
+.about__title .title h1 {
     color: #094B72;
     font-family: 'Playfair Display';
     font-size: 90px;
@@ -812,7 +816,7 @@ footer {
     margin: 91px 0 0px 0px;
 }
 
-.about_Hero_Title p {
+.about__title p {
     width: 574px;
     height: 114px;
     color: #4F4F4F;
@@ -826,7 +830,7 @@ footer {
     text-align: justify;
 }
 
-.about_Hero_Title button {
+.about__title button {
     width: 190px;
     height: 80px;
     flex-shrink: 0;
@@ -837,7 +841,7 @@ footer {
     margin-top: 23px;
 }
 
-.about_Hero_Title button span {
+.about__title button span {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
@@ -850,7 +854,7 @@ footer {
     letter-spacing: 1.28px;
 }
 
-.about_Hero_Image .ellipse1 {
+.about__image .ellipse1 {
     width: 607px;
     height: 457px;
     background: rgba(110, 168, 255, 0.10);
@@ -862,7 +866,7 @@ footer {
     margin: 50px;
 }
 
-.about_Hero_Image .ellipse2 img {
+.about__image .ellipse2 img {
     width: 438px;
     height: 442px;
     flex-shrink: 0;
@@ -870,7 +874,7 @@ footer {
 }
 
 
-.about_Hero_Image .ellipse2 {
+.about__image .ellipse2 {
     width: 364px;
     height: 344px;
     background: #6ea8ff2b;
@@ -885,19 +889,17 @@ footer {
 /* //////////// Service Page //////////// */
 
 .container2 {
-    margin: 10px 0 0;
+    margin: 30px 0 0;
     display: grid;
     grid-template-columns: 720px 720px;
-    grid-template-rows: repeat(1, 800px);
+    grid-template-rows: repeat(1, 850px);
     background-color: #FFFFFF;
 }
-
-.service_Hero_Title {
-    width: 593px;
-    padding: 64px 0px 34.1px 0;
+.service__image{
+    margin: 0 0 0 50px ;
 }
 
-.service_Hero_Image .ellipse1 {
+.service__image .ellipse1 {
     width: 692px;
     height: 560px;
     background: rgba(110, 168, 255, 0.10);
@@ -909,7 +911,7 @@ footer {
     margin: 34px 50px 50px 1px;
 }
 
-.service_Hero_Image .ellipse2 {
+.service__image .ellipse2 {
     width: 307px;
     height: 295px;
     background: #6ea8ff2b;
@@ -921,7 +923,7 @@ footer {
     margin: -264px 0 0 -69px;
 }
 
-.service_Hero_Image .ellipse2 img {
+.service__image .ellipse2 img {
     width: 478px;
     height: 523.811px;
     flex-shrink: 0;
@@ -929,7 +931,13 @@ footer {
 }
 
 
-.service_Hero_Title .title h1 {
+.service__title {
+    width: 593px;
+    padding: 64px 0px 34.1px 50px;
+}
+
+
+.service__title .title h1 {
     color: #094B72;
     font-family: 'Playfair Display';
     font-size: 48px;
@@ -939,7 +947,7 @@ footer {
     letter-spacing: 0.96px;
 }
 
-.service_Hero_Title p {
+.service__title p {
     width: 574px;
     height: 114px;
     color: #4F4F4F;
@@ -953,7 +961,7 @@ footer {
     text-align: justify;
 }
 
-.service_Hero_Title button {
+.service__title button {
     width: 190px;
     height: 80px;
     flex-shrink: 0;
@@ -964,7 +972,7 @@ footer {
     margin-top: 23px;
 }
 
-.service_Hero_Title button span {
+.service__title button span {
     width: 118px;
     height: 22px;
     margin: 29px 36px 29px 36px;
@@ -980,7 +988,13 @@ footer {
 
 /* //////////// Contact Page //////////// */
 
-.contact_Hero_Title .title h1 {
+
+.contact__title {
+    width: 600px;
+    margin: 90px 0 0 182px;
+}
+
+.contact__title .title h1 {
     font-size: 40px;
     margin: 0 0 51px 0;
     color: #094B72;
@@ -988,16 +1002,11 @@ footer {
     width: 200px;
 }
 
-.contact_Hero_Title {
-    width: 600px;
-    margin: 90px 0 0 182px;
-}
-
 form {
     width: 500px;
 }
 
-.contact_Hero_Title input {
+.contact__title input {
     width: 100%;
     border: none;
     height: 50px;
@@ -1009,17 +1018,17 @@ form {
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
-.contact_section input.message-box {
+.contact__title input.message__box {
     height: 135px;
 }
 
 label {
     font-family: 'Lato', sans-serif;
-    color: #AEAEAE;
+    color: #727272;
 }
 
 
-.contact_Hero_Title select option {
+.contact__title select option {
     color: #AEAEAE;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
@@ -1029,7 +1038,7 @@ label {
     letter-spacing: 0.28px;
 }
 
-.contact_Hero_Title select {
+.contact__title select {
     width: 527px;
     border: none;
     font-family: 'Lato', sans-serif;
@@ -1042,7 +1051,7 @@ label {
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 
-.contact_Hero_Title button {
+.contact__title button {
     border: none;
     display: inline-block;
     font-family: 'Merriweather Sans', sans-serif;
@@ -1057,7 +1066,7 @@ label {
     width: 200px;
 }
 
-.contact_Hero_Title button:hover {
+.contact__title button:hover {
     width: 190px;
     height: 80px;
     flex-shrink: 0;
@@ -1068,7 +1077,7 @@ label {
     margin-top: 23px;
 }
 
-.contact_Hero_Title button span {
+.contact__title button span {
     width: 118px;
     height: 22px;
     color: var(--neutral-grey-1, #F9F8F9);
@@ -1081,19 +1090,19 @@ label {
 }
 
 
-.contact_Hero_Title .map_container {
+.contact__title .map_container {
     height: 360px;
 
 }
 
-.contact_Hero_Title .map_container .map {
+.contact__title .map_container .map {
     height: 100%;
 }
 
 
 /* ////// Map //// */
 
-.contact_Hero_map {
+.contact__map {
     height: 703px;
     width: 618px;
     margin: 65px 0px 0 46px;
